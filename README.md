@@ -5,6 +5,6 @@ Also giving an example of using GraphQL to query a specific result based on a gi
 
 :rocket: None
 
-:atom: React Hooks
+:atom_symbol: React Hooks
 
 :books: Created for educational purposes.
