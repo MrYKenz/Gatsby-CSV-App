@@ -8,7 +8,7 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "csv-icon.png" }) {
         childImageSharp {
-          fluid(maxWidth: 50) {
+          fluid(maxWidth: 150) {
             ...GatsbyImageSharpFluid
           }
         }

@@ -6,9 +6,10 @@ import SEO from "../components/seo"
 
 
 const SearchData = () => {
+
   const data = useStaticQuery(graphql`
     query LetterByVal {
-        lettersCsv(value: {eq: "68"}) {
+        lettersCsv(value: {eq: "69"}) {
             letter
             value
         }
@@ -28,10 +29,8 @@ const SearchData = () => {
               </tr>
             </thead>
             <tbody>
-                <tr key={`${data.lettersCsv.value}`}>
-                  <td>{data.lettersCsv.letter}</td>
-                  <td>{data.lettersCsv.value}</td>
-                </tr>
+                <td>{data.lettersCsv.letter}</td>
+                <td>{data.lettersCsv.value}</td>
             </tbody>
           </table>
         </div>
